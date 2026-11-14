@@ -1,2 +1,219 @@
 # Meisha-Dalimah-
 Website CV jurusan 
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV TKJ - My Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #071525;
+    color: white;
+}
+
+header {
+    background: #102b46;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #00c8ff;
+}
+
+header h1 {
+    color: #00c8ff;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.profile {
+    text-align: center;
+    padding: 30px;
+    background: #102b46;
+    border-radius: 15px;
+}
+
+.profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #00c8ff;
+    object-fit: cover;
+}
+
+.profile h2 {
+    color: #00c8ff;
+    margin-top: 15px;
+}
+
+section {
+    background: #102b46;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #00c8ff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00c8ff;
+    padding-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+p {
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #00c8ff;
+    text-align: left;
+}
+
+th {
+    background: #087da5;
+}
+
+footer {
+    text-align: center;
+    background: #102b46;
+    padding: 20px;
+    margin-top: 30px;
+    color: #00c8ff;
+}
+
+a {
+    color: #00c8ff;
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+    .container {
+        width: 92%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY CURRICULUM VITAE</h1>
+    <p>TEKNIK KOMPUTER DAN JARINGAN</p>
+</header>
+
+<div class="container">
+
+    <div class="profile">
+        <img src="foto.jpg" alt="Foto Profil">
+        <h2>NAMA KAMU</h2>
+        <p>Student | Teknik Komputer dan Jaringan</p>
+        <p>SMK NEGERI 2 PANYABUNGAN</p>
+    </div>
+
+    <section>
+        <h2>👤 Tentang Saya</h2>
+        <p>
+        Saya adalah siswa jurusan Teknik Komputer dan Jaringan
+        yang memiliki minat dalam bidang teknologi, komputer,
+        jaringan internet, dan pemrograman website.
+        Saya senang belajar hal baru dan mengembangkan kemampuan
+        di bidang teknologi informasi.
+        </p>
+    </section>
+
+    <section>
+        <h2>📋 Data Diri</h2>
+        <table>
+            <tr><th>Nama</th><td>Nama Kamu</td></tr>
+            <tr><th>Tempat, Tanggal Lahir</th><td>Isi sendiri</td></tr>
+            <tr><th>Alamat</th><td>Isi alamat</td></tr>
+            <tr><th>Email</th><td>emailkamu@gmail.com</td></tr>
+            <tr><th>Jurusan</th><td>Teknik Komputer dan Jaringan</td></tr>
+            <tr><th>Sekolah</th><td>SMK Negeri 2 Panyabungan</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>💻 Keahlian</h2>
+        <ul>
+            <li>Instalasi Sistem Operasi</li>
+            <li>Perakitan Komputer</li>
+            <li>Konfigurasi Jaringan LAN</li>
+            <li>Pengkabelan UTP</li>
+            <li>Konfigurasi Router dan Mikrotik</li>
+            <li>HTML dan CSS</li>
+            <li>Troubleshooting Komputer</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🎓 Pendidikan</h2>
+        <table>
+            <tr>
+                <th>Tahun</th>
+                <th>Sekolah</th>
+            </tr>
+            <tr>
+                <td>2026 - Sekarang</td>
+                <td>SMK Negeri 2 Panyabungan</td>
+            </tr>
+            <tr>
+                <td>2023 - 2026</td>
+                <td>SMP (Isi Nama Sekolah)</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>🛠️ Pengalaman Praktik</h2>
+        <ul>
+            <li>Praktik merakit komputer.</li>
+            <li>Membuat kabel jaringan LAN.</li>
+            <li>Belajar konfigurasi Mikrotik.</li>
+            <li>Membuat website menggunakan HTML dan CSS.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📞 Kontak</h2>
+        <p>Email: emailkamu@gmail.com</p>
+        <p>Instagram: @usernamekamu</p>
+        <p>GitHub: github.com/usernamekamu</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 My CV TKJ | Created by Nama Kamu</p>
+</footer>
+
+</body>
+</html>
